@@ -1,0 +1,15 @@
+#arriba{
+    position: sticky;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+#arriba img{
+    height: 30px;
+    width: 30px;
+}
+
+footer{
+    background-image: './img/casa-perro-1.jpg';
+}
