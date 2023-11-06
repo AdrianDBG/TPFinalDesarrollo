@@ -49,17 +49,21 @@ header a{
     font-size: 20px;
 }
 
-.principal h2{
+.principal{
     background-image: url(img/mueblesyhogares.png);
-    width: 100%; 
-    height: fit-content;
-    color: white;
-    font-size: 64px;
-    text-align: center;
-    margin: 0px;
+    background-size: cover;
+    min-height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.principal p{
+.principal h2{
+    font-size: 64px;
+    color: white;
+}
+
+.intro{
     font-size: 32px;
     text-align: center;
 }
@@ -144,7 +148,7 @@ button{
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .descuento p{
@@ -184,6 +188,13 @@ button{
 .descuento .inscripcion button{
     position: relative;
     
+}
+
+footer{
+    background-image: url(./img/imagen_footer.png);
+    margin-top: 0px;
+    padding-top: 50px;
+    background-size: cover;
 }
 
 footer nav{
