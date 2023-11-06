@@ -1,6 +1,8 @@
 .container{
     padding: 0px 15%;
     margin: 50px 0 50px;
+    min-width: 1200px;
+    max-width: 1320px;
 }
 
 body{
@@ -149,6 +151,7 @@ button{
     display: flex;
     justify-content: space-between;
     margin: 0px;
+    width: 100%;
 }
 
 .descuento p{
