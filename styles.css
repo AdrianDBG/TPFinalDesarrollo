@@ -94,10 +94,12 @@ button{
 }
 
 .clientes img{
-    width: 100%;
+    width: 300px;
     max-height: 300px;
     transform: scale(var(--escala,1));
     transition: transform 0.25s;
+    object-fit:fill;
+    object-position: center;
 }
 
 .clientes img:hover{
@@ -182,4 +184,12 @@ footer .redes{
     z-index: 2;
     height: 80px;
     width: 80px;
+}
+
+
+
+@media (min-width:1345px){
+    .clientes img{
+        width: 100%;
+    }
 }
