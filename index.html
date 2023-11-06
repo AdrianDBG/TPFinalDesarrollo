@@ -8,7 +8,7 @@
 </head>
 <body>
     <header id="inicio">
-        <img src="" alt="logo">
+        <img src="./img/petlogosolo.png" alt="logo" id="logo">
         <nav>
             <ul>
                 <li><a href="#modelos">MODELOS</a></li>
@@ -55,9 +55,9 @@
             <button>VER MÁS MODELOS</button>
         </section>
         
-        <section>
+        <section class="container">
             <h2>Nuestros clientes</h2>
-            <div>
+            <div class="clientes">
                 <img src="./img/clientecasa1.jpg" alt="Foto cliente 1">
                 <img src="./img/clientecasa2.jpg" alt="Foto cliente 2">
                 <img src="img/clientecasa3.jpg" alt="Foto cliente 3">
@@ -67,69 +67,75 @@
             </div>
         </section>
 
-        <img src="img/petlogosolo.png" alt="logo">
-        <section>
-            <p>Suscribite a nuestro Newsletter y recibí descuentos exclusivos.</p>
-            <div>
-                <h4>RECIBÍ 10% OFF EN TU COMPRA</h4>
-                <input type="text" placeholder="Ingresa tu e-mail">
+        <img src="img/petlogosolo.png" alt="logo" id="logoAbajo">
+
+        <section class="descuento container">
+            <p>¡Suscribite a nuestro Newsletter y recibí descuentos exclusivos!</p>
+            <div class="inscripcion">
                 <input type="text" placeholder="Ingresa tu nombre">
-                <div>
-                    <input type="checkbox" id="cbox1">
-                    <label for="cbox1">Hombre</label>
-                    <input type="checkbox" id="cbox2">
-                    <label for="cbox2">Mujer</label>
+                <input type="text" placeholder="Ingresa tu e-mail">
+                <div class="checks">
+                    <div>
+                        <input type="checkbox" id="cbox1">
+                        <label for="cbox1">Hombre</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cbox2">
+                        <label for="cbox2">Mujer</label>
+                    </div>
                 </div>
-                <button>Enviar</button> 
+                <button type="submit">Enviar</button> 
             </div>
         </section>
     </main>
-    <footer id="nosotros">
-        <div>
-            <h5>Tienda online</h5>
-            <ul>
-                <li><a href="#">Perros</a></li>
-                <li><a href="#">Gatos</a></li>
-                <li><a href="#">Medios de pago</a></li>
-                <li><a href="#">Promociones</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Sobre la compra</h5>
-            <ul>
-                <li>Preguntas frecuentes</li>
-                <li>Cambios y devoluciones</li>
-                <li>Contacto</li>
-            </ul>
-            <button>Botón de arrepentimiento</button>
-        </div>
-        <div>
-            <h5>Acerca de "..."</h5>
-            <ul>
-                <li>Locales</li>
-                <li>Quienes somos</li>
-                <li>Trabajá con nosotros</li>
-                <li>Código de Ética y Conducta</li>
-                <li>Contacto corporativo</li>
-            </ul>
-        </div>
-        <div>
-            <h5>Legales</h5>
-            <ul>
-                <li>Términos y condiciones de uso</li>
-                <li>Pólitica de privacidad</li>
-                <li>Pólitica de cambios y devoluciones</li>
-                <li>Defensa y protección al consumidor</li>
-            </ul>
-        </div>
-        <div>
+    <footer id="nosotros" class="nosotros">
+        <nav>
+            <div>
+                <h5>Tienda online</h5>
+                <ul>
+                    <li><a href="#">Perros</a></li>
+                    <li><a href="#">Gatos</a></li>
+                    <li><a href="#">Medios de pago</a></li>
+                    <li><a href="#">Promociones</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>Sobre la compra</h5>
+                <ul>
+                    <li>Preguntas frecuentes</li>
+                    <li>Cambios y devoluciones</li>
+                    <li>Contacto</li>
+                </ul>
+                <button>Botón de arrepentimiento</button>
+            </div>
+            <div>
+                <h5>Acerca de "..."</h5>
+                <ul>
+                    <li>Locales</li>
+                    <li>Quienes somos</li>
+                    <li>Trabajá con nosotros</li>
+                    <li>Código de Ética y Conducta</li>
+                    <li>Contacto corporativo</li>
+                </ul>
+            </div>
+            <div>
+                <h5>Legales</h5>
+                <ul>
+                    <li>Términos y condiciones de uso</li>
+                    <li>Pólitica de privacidad</li>
+                    <li>Pólitica de cambios y devoluciones</li>
+                    <li>Defensa y protección al consumidor</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="redes">
             <a href="" target="_blank"><img src="img/Facebook.png" alt="facebook"></a>
-            <a href="" target="_blank"><img src="img/Instagram Circle.png" alt="instagram"></a>
+            <a href="" target="_blank"><img src="img/InstagramCircle.png" alt="instagram"></a>
             <a href="" target="_blank"><img src="img/YouTube.png" alt="youtube"></a>
         </div>
     </footer>
-    <a href="" id="whatsapp"><img src="img/wpicono.png" alt="whatsapp"></a>
-    <a href="#inicio" id="arriba"><img src="./img/casa-perro-1.jpg" alt="arriba"></a>
+    <a href="" id="whatsapp"><img src="img/wpicono.png" alt="whatsapp" id="whatsapp"></a>
+    <a href="#inicio"><img src="./img/subir.png" alt="arriba" id="arriba"></a>
 
 </body>
 </html>

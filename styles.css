@@ -1,24 +1,37 @@
 .container{
-    margin: 0px 5%;
+    padding: 0px 15%;
 }
 
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
-ul{
+header #logo{
+    position: relative;
+    width: 60px;
+    bottom: 20px;
+}
+
+header img{
+    width: 30px;
+    padding: 10px;
+}
+
+header ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-li{
+header li{
     margin: 10px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -67,20 +80,106 @@ article .guardado{
     left: 90%;
     max-height: 24px;
 }
-article button{
+button{
     border-radius: 17px;
     border: solid black 2px;
     padding: 20px;
+    cursor: pointer;
+}
+
+.clientes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px
+}
+
+.clientes img{
+    width: 100%;
+    max-height: 300px;
+    transform: scale(var(--escala,1));
+    transition: transform 0.25s;
+}
+
+.clientes img:hover{
+    --escala:1.15;
+    z-index: 1;
+}
+
+#logoAbajo{
+    position: relative;
+    left: 75%;
+    top: 7px;
+}
+
+.descuento{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descuento p{
+    font-size: 24px;
+    max-width: 25%;
+}
+
+.descuento .inscripcion{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.descuento .inscripcion input{
+    border: solid white 2px;
+    background-color: black;
+    place-content: white;
+    height: 40px;
+    width: 30%;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+
+.descuento div .checks {
+    display: block;
+    padding: 0px 10% 0px 5%;
+}
+.descuento div .checks div{
+    width: 100%;
+}
+
+.descuento div .checks input{
+    height: auto;
+}
+
+.descuento .inscripcion button{
+    position: relative;
     
 }
-#arriba{
-    position: sticky;
-    right: 50px;
-    bottom: 50px;
 
+footer nav{
+    display: flex;
+    margin: 0px 10%;
+    justify-content: space-between;
 }
 
-#arriba img{
-    height: 30px;
-    width: 30px;
+footer .redes{
+    padding: 100px 40%;
+}
+
+#arriba{
+    position: fixed;
+    bottom: 30px;
+    left: 90%;
+    z-index: 1;
+    height: 80px;
+    width: 80px;
+}
+
+#whatsapp{
+    position: fixed;
+    bottom: 110px;
+    left: 90%;
+    z-index: 2;
+    height: 80px;
+    width: 80px;
 }
