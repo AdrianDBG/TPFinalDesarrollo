@@ -104,6 +104,9 @@ article .guardado:hover{
     cursor: pointer;
 }
 
+.btn{
+    margin-left: 33%;
+}
 
 button{
     border-radius: 17px;
@@ -122,7 +125,11 @@ button{
 .clientes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px
+    grid-gap: 10px;
+}
+
+.clientes div{
+    overflow: hidden;
 }
 
 .clientes img{
@@ -180,6 +187,7 @@ button{
     display: block;
     padding: 0px 10% 0px 5%;
 }
+
 .descuento div .checks div{
     width: 100%;
 }
@@ -275,7 +283,6 @@ footer .redes img{
     }
     .clientes img{
         width: 100%;
-        min-width: 300px;
         height: auto;
     }
 }
