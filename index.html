@@ -8,28 +8,27 @@
 </head>
 <body>
     <header id="inicio">
-        <img src="./img/petlogosolo.png" alt="logo" id="logo">
+        <img src="./img/PetHaven.svg" alt="logo" id="logo">
         <h1>PetHaven</h1>
         <nav>
             <ul>
-                <li><a href="#nosotros">NOSOTROS</a></li>
                 <li><a href="#hogares">HOGARES</a></li>
                 <li><a href="#clientes">CLIENTES</a></li>
+                <li><a href="#quienesSomos">CONTACTO</a></li>
                 <li><a href="#suscribite">SUSCRIBITE</a></li>
-                <li><a href="#ayuda">AYUDA</a></li>
             </ul>
         </nav>
-        <DIV>
+        <div>
             <a href=""><img src="img/usuario.png" alt="perfil"></a>
             <a href=""><img src="img/carrito.png" alt="carrito"></a>
-        </DIV>
+        </div>
     </header>
     <main>
         <section class="principal" id="nosotros">
             <h2>Muebles y Hogar</h2>
+            <a href="#quienesSomos"><button>MÁS INFO</button></a>
         </section>
-        <p class="container intro">“Diseñamos y construimos casas para perros y gatos  que van más allá de lo ordinario. Estas casas son verdaderas obras maestras arquitectónicas que ofrecen un refugio cómodo y elegante para tus mascotas.”</p>
-        <hr style="margin: 0 15%;">
+        <hr>
         <section id="hogares" class="container">
             <h2>Hogares</h2>
             <div class="modelos">
@@ -70,13 +69,36 @@
             </div>
         </section>
 
+        <section class="container quienesSomos" id="quienesSomos">
+            <h2>Quienes somos</h2>
+
+            <div>
+                <div class="mapa" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.498620541215!2d-58.36365332695649!3d-34.60444056553977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352e592d3b0b%3A0x620cadd22cda5273!2sMadero%20Center!5e0!3m2!1ses!2sar!4v1699647521244!5m2!1ses!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contacto">
+                    <p class="intro">Diseñamos y construimos casas para perros y gatos  que van más allá de lo ordinario. Estas casas son verdaderas obras maestras arquitectónicas que ofrecen un refugio cómodo y elegante para tus mascotas.</p>
+                        <div>
+                            <h3>Contacto</h3>
+                            <ul>
+                                <li><strong>E-mail:</strong> <a href=”mailto:contactgar@a.com” target="_blank">mailto:contactgar@a.com </a></li>
+                                <li><strong>Telefono:</strong> <a href="" target="_blank">+54 011 1122-3344</a></li>
+                                <li><strong>Dirección:</strong> <a href="https://www.google.com/maps/place/Madero+Center/@-34.604704,-58.364186,20z/data=!4m6!3m5!1s0x95a3352e592d3b0b:0x620cadd22cda5273!8m2!3d-34.6047041!4d-58.3641863!16s%2Fm%2F0_1mj71?hl=es&entry=ttu" target="_blank">Macacha Güemes 330, Buenos Aires</a></li>
+                                <li><strong>Horarios:</strong> Lunes a Viernes de 9 hs a 20 hs / Sábado de 9 hs a 17 hs</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+
+        </section>
+        
         <img src="img/petlogosolo.png" alt="logo" id="logoAbajo">
         
         <section class="descuento container" id="suscribite">
             <p>¡Suscribite a nuestro Newsletter y recibí descuentos exclusivos!</p>
             <div class="inscripcion">
                 <input type="text" placeholder="Ingresa tu nombre">
-                <input type="text" placeholder="Ingresa tu e-mail">
+                <input type="email" placeholder="Ingresa tu e-mail">
                 <div class="checks">
                     <div>
                         <input type="checkbox" id="cbox1">
@@ -90,8 +112,13 @@
                 <button type="submit">Enviar</button> 
             </div>
         </section>
+
+        
     </main>
+
+
     <footer id="ayuda" class="nosotros">
+
         <nav>
             <div>
                 <h3>Tienda online</h5>
@@ -104,16 +131,16 @@
             </div>
             <div>
                 <h3>Sobre la compra</h5>
-                <ul>
-                    <li><a href="">Preguntas frecuentes</a></li>
-                    <li><a href="">Cambios y devoluciones</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
-                <button>Botón de arrepentimiento</button>
-            </div>
-            <div>
-                <h3>Acerca de "..."</h5>
-                <ul>
+                    <ul>
+                        <li><a href="">Preguntas frecuentes</a></li>
+                        <li><a href="">Cambios y devoluciones</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                    <button>Botón de arrepentimiento</button>
+                </div>
+                <div>
+                    <h3>Acerca de "..."</h5>
+                        <ul>
                     <li><a href="">Locales</a></li>
                     <li><a href="">Quienes somos</a></li>
                     <li><a href="">Trabajá con nosotros</a></li>
@@ -131,15 +158,18 @@
                 </ul>
             </div>
         </nav>
+
         <div class="redes">
             <a href="https://www.facebook.com/" target="_blank"><img src="img/Facebook.png" alt="facebook"></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="img/InstagramCircle.png" alt="instagram"></a>
             <a href="https://www.youtube.com/" target="_blank"><img src="img/YouTube.png" alt="youtube"></a>
         </div>
+
     </footer>
+
     <a href="" id="whatsapp"><img src="img/wpicono.png" alt="whatsapp" id="whatsapp"></a>
     <a href="#inicio"><img src="./img/subir.png" alt="arriba" id="arriba"></a>
     
-    <p style="padding-left: 10px;">Todos los derchos reservados. Matias Rivas y Adrian Birnbaum</p>
+    <p class="derechos">Todos los derechos reservados. Matias Rivas y Adrian Birnbaum</p>
 </body>
 </html>
