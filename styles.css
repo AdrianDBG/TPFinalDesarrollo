@@ -369,14 +369,7 @@ footer .redes img{
     padding: 25px;
 }
 
-#arriba{
-    position: fixed;
-    bottom: 30px;
-    left: 90%;
-    z-index: 1;
-    height: 80px;
-    width: 80px;
-}
+
 
 #whatsapp{
     position: fixed;
